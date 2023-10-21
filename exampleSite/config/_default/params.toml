@@ -66,7 +66,7 @@ title_large = "Welcome **!**"
 title_small = "to Charles Dpj's Blog"
 image = "images/gopher.png"
 background_image = "/images/banner-bg-shape.svg"
-content = "Welcome to my blog, I'm Charles a Backend Developer, I'm currently working on software infastructures in Go"
+content = "Welcome to my blog, I'm Charles a Backend Developer, I'm currently working on software infastructures with Go"
 button_label = "Know More"
 button_link = "about/"
 
