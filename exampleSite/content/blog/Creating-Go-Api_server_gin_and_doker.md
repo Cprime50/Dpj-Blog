@@ -1,12 +1,12 @@
 ---
-title: "Building a Go API Server with Gin and Docker"
-description: "Learn how to build a Go API server with the Gin framework and containerize it using Docker. This step-by-step guide covers setting up the project, creating a Dockerfile, configuring Docker Compose, handling environment variables, and accessing your API. Start building scalable and efficient Go APIs now!"
+title: "Building a Go Rest API with Gin and Postgres Docker"
+description: "Learn how to build a Go API with the Gin framework and containerize it using Docker. This step-by-step guide covers setting up the project, creating a Dockerfile, configuring Docker Compose, handling environment variables, and accessing your API. Start building scalable and efficient Go APIs now!"
 image: "images/post/post-12.png"
 date: 2023-06-24T18:19:25+06:00
 categories: ["programming"]
 tags: ["go", "golang", "Docker", "gin"]
 type: "featured" # available types: [featured/regular]
-draft: false
+draft: true
 ---
 
 
