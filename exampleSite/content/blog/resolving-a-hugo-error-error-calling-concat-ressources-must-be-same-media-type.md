@@ -5,7 +5,7 @@ image: "images/post/post-11.png"
 date: 2023-03-12T18:19:25+06:00
 categories: ["programming"]
 tags: ["bufio", "coding", "golang"]
-type: "featured" # available types: [featured/regular]
+type: "reguler" # available types: [featured/regular]
 draft: false
 sitemapExclude: false
 ---

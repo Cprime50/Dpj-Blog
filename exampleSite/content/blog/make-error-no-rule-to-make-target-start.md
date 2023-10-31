@@ -6,7 +6,7 @@ image: "images/post/golang-bufio-with-float-input.png"
 date: 2023-03-12T18:19:25+06:00
 categories: ["programming"]
 tags: ["makefile", "coding", "golang"]
-type: "featured" # available types: [featured/regular]
+type: "reguler" # available types: [featured/regular]
 draft: false
 sitemapExclude: false
 ---
