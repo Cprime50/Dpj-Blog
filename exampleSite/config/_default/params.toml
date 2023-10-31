@@ -40,7 +40,7 @@ no_tags_found = "No Tags Found"
 
 mainSections = ["blog"]
 # about widget content
-about_widget_content = "I thought the potato picture looked funny. Anyways I'm Charles, I'm a software developer, I work primarily on the backend building infastructures with Go. I'm currently working on something fun right now. I made this blog to share articles, thoughts and for documentating progarmming related stuff. If you're interested in what I do feel free to connect with me"
+about_widget_content = "I thought the potato picture looked funny. Anyways I'm Charles, I'm a software developer, I work primarily on the backend building infastructures with Go. I'm currently working on something fun right now. I made this blog to share articles, thoughts and for documentating programming related stuff. If you're interested in what I do feel free to connect with me"
  
 # footer content
 footer_content = "Hi, hope you're having a lovely day!"
