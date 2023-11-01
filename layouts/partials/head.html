@@ -52,7 +52,7 @@
   <meta name="twitter:image:src" content="{{ .Site.Params.image | absURL }}" />
 {{ end }}
 <meta name="description" content="{{ .Params.Description | default site.Params.description }}">
-{{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+{{ with site.Params.author.name }}<meta name="author" content="{{ . }}">{{ end }}
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />

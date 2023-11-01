@@ -12,10 +12,10 @@ logo_text = "Charles Dpj"
 navbar_fixed = false
 # OpenGraph / Twitter Card metadata
 description = "I make awesome programming, tech and non-tech related contents, come check it out, I know you'll find it interseting"
-author = "Charles Dpj"
+# author = "Charles Dpj"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # contact info
-address = "Rivers, Nigeria"
+address = "Nigeria"
 mobile = ""
 email = "Charlesdpj78@gmail.com"
 # contact form action

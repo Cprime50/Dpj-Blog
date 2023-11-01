@@ -14,7 +14,7 @@ sitemapExclude: false
 
 #### Resolving a Hugo Error
 
-If you're using Hugo to build your websites, you may have encountered errors during the build process. These errors can sometimes be cryptic, leaving you scratching your head, wondering how to fix them. In this blog post, we'll explore a common Hugo error related to Bootstrap SCSS module and share how we successfully resolved it.
+If you're using Hugo to build your websites, you may have encountered errors during the build process. These errors can sometimes be cryptic, leaving you in a state of fustration, wondering how to fix them. In this blog post, we'll explore a common Hugo error related to Bootstrap SCSS module and share how we successfully resolved it.
 
 
 ## The Error Message

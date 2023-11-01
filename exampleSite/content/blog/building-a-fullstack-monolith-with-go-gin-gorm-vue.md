@@ -10,7 +10,7 @@ draft: false
 ---
 
 
-Hello guys, I know you all are super enthusiatic about the Go programming language, just as am I. It's been by Backend Langauge of choice ever since I discovered it. I wanted to build something fun and share about it, so I am creating this series where I will be sharing the process of building a fullstack monolith application that uses Go for the backend and Vue for the front end. I will make sure to explain things as much as I can so anyone including begineers will be able to understand. I did alot of research before making this, so everything will be done with the best standards.
+Hello guys, I know you all are super enthusiatic about the Go programming language, just as I am. It's been by Backend Langauge of choice ever since I discovered it. I wanted to build something fun and share about it, so I am creating this series where I will be sharing the process of building a fullstack monolith application that uses Go for the backend and Vue for the front end. I will make sure to explain things as much as I can so anyone including begineers will be able to understand. I did alot of research before making this, so everything will be done with the best standards.
 
 A little bit about the project we will be building. It's a simple application but with a mixure of alot of concepts that may seem complicated, like web sockets for example, everything will be broken down as much as possible to so it can be easily understood.
 
