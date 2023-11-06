@@ -1,5 +1,5 @@
 ---
-title: "Python program to sum the first 50 fibonacci sequence"
+title: "Finding Fibonacci sequence in python"
 description: "Fibonacci sequence is a sequence in which each number is equal to the sum of the two preceding numbers.The sequence usually starts with 0 and 1 and the next number would be the sum of the last two numbers"
 image: "images/post/post-11.png"
 date: 2023-07-24T18:19:25+06:00

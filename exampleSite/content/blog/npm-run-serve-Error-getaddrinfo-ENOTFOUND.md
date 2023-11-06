@@ -1,8 +1,8 @@
 ---
-title: "How to fix Npm run serve Error: getaddrinfo ENOTFOUND"
+title: "SOLVED: Npm run serve Error: getaddrinfo ENOTFOUND"
 description: "getaddrinfo ENOTFOUND, typically occurs when your Node.js project, is attempting to make a network request or establish a connection to a specific hostname, but it cannot resolve that hostname to an IP address. This failure in DNS resolution results in the error being thrown."
 image: "images/post/post-13.png"
-date: 2023-08-24T18:19:25+06:00
+date: 2023-06-24T18:19:25+06:00
 categories: ["programming"]
 tags: ["programming", "vue.js", "node.js"]
 type: "regular" # available types: [featured/regular]

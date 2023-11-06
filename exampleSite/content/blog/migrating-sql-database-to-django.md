@@ -2,7 +2,7 @@
 title: "Migrating an SQL Database to Django: A Step-by-Step Guide"
 description: "To get started, create a new Django project using the django-admin startproject command. This will set up the basic project structure and configuration files necessary for our migration."
 image: "images/post/post12.png"
-date: 202-06-24T18:19:25+06:00
+date: 2022-06-24T18:19:25+06:00
 categories: ["programming"]
 tags: ["tech", "coding", "Django"]
 type: "regular" # available types: [featured/regular]

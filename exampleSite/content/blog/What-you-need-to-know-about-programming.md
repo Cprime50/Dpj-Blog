@@ -6,7 +6,7 @@ date: 2023-05-24[images](../../assets/T18:19:25+06:00
 categories: ["programming"]
 tags: ["tech", "coding"]
 type: "regular" # available types: [featured/regular]
-draft: false
+draft: true
 ---
 
 Have you ever been enticed by promises of mastering programming within a few weeks or months? It's a common claim in the digital age, where everything seems possible at lightning speed. However, the reality is quite different. Programming isn't an overnight success story – it's a journey that demands time, dedication, and consistent effort.
