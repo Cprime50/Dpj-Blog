@@ -2,7 +2,7 @@
 title: "Disneyland The Happiest Place on Earth? How it all Began"
 description: "Disneyland is an iconic amusement park located in Anaheim, California. It was founded by Walt Disney, the creator of beloved characters including Mickey Mouse, and animated films like Snow White. It officially opened in 1955."
 image: "images/post/disney.png"
-date: 2023-07-24T18:19:25+06:00
+date: 2022-07-24T18:19:25+06:00
 categories: ["Disney"]
 tags: ["fun", "entertainment"]
 type: "regular" # available types: [featured/regular]

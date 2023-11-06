@@ -1,5 +1,5 @@
 ---
-title: "Building a fullstack application with Go Gin Gorm and Vue js Introduction 1"
+title: "Building a fullstack application with Go Gin Gorm and Vue js Introduction 0"
 description: "This is a series where we will be building a Restful Api application, using Go, Gin, Gorm and we will be consumming that api with Vue js. "
 image: "images/post/go-gin-api.jpg"
 date: 2023-06-24T18:19:25+06:00
