@@ -78,3 +78,4 @@ func main() {
 If that outputs `Hello world` successfully, then you're good to `Go` with us. 
 
 Ok that has been enough introduction, in this next chapter we will be diving into the real stuff...
+[Building a fullstack application with Go Gin Gorm and Vue js, setting up Postgres and models 1](http://charlesdpj.com/blog/Gin-Gorm-Golang-Vue-jwt-authetication.md)
