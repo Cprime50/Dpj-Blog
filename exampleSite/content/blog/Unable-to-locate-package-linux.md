@@ -13,7 +13,7 @@ draft: false
 I had just gone through a very stressful night because I accidentally deleted a package(fuse3) from my Ubuntu and it crashed my OS. Alot super important packages got deleted wich caused Ubuntu unable to boot. And yes I "accidentally" ran `sudo apt-get --purge remove fuse3`, before you judge me, you should know how it all started, if you're interested in hearing about that story visit [here](https://www.charlesdpj.com/accidentally-deleted-fuse3-crashed-my-ubuntu). The point is I had fuse3, gnome-session gdm3, ubuntu-gnome-desktop, gnome-shell all gone and I was unable to install anything because I would keep getting the `Unable to locate package <package-name>` as a response, it was a nightmare as I had thought I lost all of my files.
 After digging up the internet tho, I figured why I was getting this response and how to fix it. 
 
-{{< image src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linux.org%2Fthreads%2Flinux-humor.9097%2F&psig=AOvVaw1CbF8bJMqOEyBWvzRcbLIm&ust=1699264313010000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIiPgYHLrIIDFQAAAAAdAAAAABAE" caption="linux cat" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="linux cat" webp="false" >}}
+{{< image src="https://preview.redd.it/uzx3z0pzdvb61.jpg?auto=webp&s=a6ae080930a19ba1f88fec9370c148ea349253c0" caption="linux cat" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="linux cat" webp="false" >}}
 
 
 #### Reason
@@ -67,6 +67,11 @@ This removes it from the source.list
 
 #### Second procedure (manually adding repository into sources.list)
 You can also maually edit the `/etc/apt/sources.list` file and add the apt repository line to the file.
+
+You may need root access to edit this file so login as root user
+{{< highlight bash >}}
+sudo sudo
+{{< /highlight >}}
 
 Using nano or vim or any text editor of your choice, open the `/etc/apt/sources.list` file
 
