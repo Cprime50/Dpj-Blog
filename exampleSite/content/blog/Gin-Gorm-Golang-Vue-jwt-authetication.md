@@ -6,7 +6,7 @@ date: 2023-06-26T18:19:25+06:00
 categories: ["programming", "Reguler Club"]
 tags: ["go", "gin", "Vue", "Gorm"]
 type: "featured" # available types: [featured/regular]
-draft: false
+draft: true
 ---
 
 Hello guys, welcome once again to my blog. This is going to be the first coding part of our `Reguler Club` tutorial where I will be sharing with you how to structure, a Golang restAPi project using Gin, connecting to a postgres database using Gorm, handling user authentication using jwt and assigning user roles. If you've missed the first section where I did a simple introduction of the software we will be building, its design and a breakdown of the technologies that we will be using, you can catch up [here](http://www.charlesdpj.com/blog/building-a-fullstack-monolith-with-go-gin-gorm-vue).
@@ -491,4 +491,44 @@ mkdir model
 touch model/user.go
 {{< /highlight >}}
 
+*models/user.go*
+{{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=1">}}
+package models
+
+import (
+	"crypto/rand"
+	"errors"
+	"log"
+	"time"
+
+	"github.com/Cprime50/regclub/database"
+	"golang.org/x/crypto/bcrypt"
+	"gorm.io/gorm"
+)
+
+type User struct {
+	gorm.Model
+	ID       uint   `gorm:"primary_key"`
+	Username string `gorm:"uniqueIndex;not null; size:255"  json:"user_name"`
+	Email    string `gorm:"uniqueIndex;not null; size:255" json:"email"`
+	Password string `gorm:"not null; collate:utf8" json:"-"`
+	//	Active      bool      `gorm:"not null" json:"active"`
+	Verified  bool      `gorm:"not null;DEFAULT:false" json:"verified"`
+	Bio       string    `gorm:"size:1024" json:"bio"`
+	Image     *string   `json:"image"`
+	CreatedAt time.Time `json:"created_at"`
+	UpdatedAt time.Time ` json:"updated_at"`
+	RoleID    uint      `gorm:"not null;DEFAULT:4" json:"role_id"`
+	Role      Role      `gorm:"constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"-"`
+}
+
+type Role struct {
+	gorm.Model
+	ID          uint   `gorm:"primary_key"`
+	Name        string `gorm:"size:50;not null;uniqueIndex" json:"name"`
+	Description string `gorm:"size:255;not null" json:"description"`
+	CreatedAt   time.Time
+	UpdatedAt   time.Time
+}
+{{< /highlight >}}
 
