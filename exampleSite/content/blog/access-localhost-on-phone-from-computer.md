@@ -3,7 +3,7 @@ title: "Access localhost from mobile phone when connected to computer wifi"
 description: "The first step is to find the IP address of your computer. This is a unique identifier for your device on the network. On Windows, open Command Prompt and type:
 "
 image: "images/post/post-13.png"
-date: 2023-9-25 T18:19:25+06:00
+date: 2023-11-24T18:19:25+06:00
 categories: ["programming"]
 tags: ["localhost", "ubuntu"]
 type: "reguler" # available types: [featured/regular]
