@@ -59,8 +59,5 @@ We also cleared Hugo's cache to ensure that any cached files or outdated depende
 
 After downgrading the Bootstrap module and clearing Hugo's cache, we rebuilt our Hugo project. To our relief, the error was gone, and our project compiled successfully.
 
-## Conclusion
 
-Encountering errors during web development projects is a common occurrence, and it's essential not to get discouraged. Instead, view these errors as opportunities to learn and improve your skills. In our case, we successfully resolved the "Undefined variable" error by downgrading the Bootstrap module and ensuring compatibility with our Hugo version.
 
-Remember that troubleshooting and problem-solving are valuable skills in web development. If you encounter similar issues in your Hugo projects, don't hesitate to explore different solutions, seek help from the community, and document your findings. Happy coding!

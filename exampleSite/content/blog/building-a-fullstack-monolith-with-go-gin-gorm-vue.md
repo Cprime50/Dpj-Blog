@@ -6,7 +6,7 @@ date: 2023-06-24T18:19:25+06:00
 categories: ["programming", "Reguler Club"]
 tags: ["go", "gin", "Vue", "Gorm"]
 type: "featured" # available types: [featured/regular]
-draft: false
+draft: true
 ---
 
 

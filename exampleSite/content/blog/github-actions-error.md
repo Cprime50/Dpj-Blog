@@ -1,7 +1,7 @@
 ---
 title: "Github actions: Action failed with "The process '/usr/bin/git' failed with exit code 128"
-description: "If youre getting this error while trying to use gitub actions you need to give actions read write permision in that repo."
-image: "post-4.png"
+description: "The error message The process '/usr/bin/git' failed with exit code 128 typically indicates that GitHub Actions does not have the required permissions to execute certain tasks in your repository. This could be due to restrictions on the actions that can be run, or limitations on the scope of the workflows."
+image: "images/post/post-4.png"
 date: 2023-11-26 T18:19:25+06:00
 categories: ["programming"]
 tags: ["github"]
@@ -9,39 +9,26 @@ type: "regular" # available types: [featured/regular]
 draft: false
 ---
 
-Actions permission
-
-Action failed with "The process '/usr/bin/git' failed with exit code 128"
-
-If youre getting this error while trying to use gitub actions you need to give actions read write permision in that repo.
-
-Go to settings, actions, general,
-
-Select any action or reuable workflow can be used
-Actions permissions
 
 
-Any action or reusable workflow can be used, regardless of who authored it or where it is defined.
+### Troubleshooting GitHub Actions Permissions: A Comprehensive Guide
 
-The Actions tab is hidden and no workflows can run.
+GitHub Actions is a powerful tool that allows developers to automate their software development workflows. However, sometimes, you might encounter errors while using it. One such error is `The process '/usr/bin/git' failed with exit code 128`, which is often due to insufficient permissions. This article will guide you through the steps to grant the necessary permissions to resolve this issue.
 
-Any action or reusable workflow defined in a repository within Cprime50 can be used.
+#### Granting Necessary Permissions
+To resolve this issue, you need to adjust the permissions in your repository's settings. Here are the steps to do so:
 
-Any action or reusable workflow that matches the specified criteria, plus those defined in a repository within Cprime50, can be used. Learn more about allowing specific actions and reusable workflows to run.
+1. Navigate to your repository's Settings: From your GitHub repository page, click on the 'Settings' tab located at the top right corner of the page.
 
-Save 
+2. Select Actions under the General category: In the left sidebar of the Settings page, you will find a section labeled 'General'. Click on 'Actions' within this section.
 
-then:
-
- scroll down to work flow permissions 
-Workflow permissions
-and give read and write permission 
+3. Choose Any action or reusable workflow can be used: In the Actions permissions section, select the option 'Any action or reusable workflow can be used'. This setting allows actions from any source to be used in your repository, providing flexibility in your workflows.
 
 
-Choose the default permissions granted to the GITHUB_TOKEN when running workflows in this repository. You can specify more granular permissions in the workflow using YAML. Learn more about managing permissions.
+4. Set Workflow permissions: Scroll down to the 'Workflow permissions' section. Set the permissions to 'Workflows have read and write permissions in the repository for all scopes'. This setting grants comprehensive permissions to your workflows, enabling them to perform read and write operations in your repository.
 
+5. Save your changes: After making these changes, remember to save them. Your settings should now allow GitHub Actions to perform the necessary operations without encountering the exit code 128 error.
 
+By configuring these permissions, you provide GitHub Actions with the necessary access to perform read and write operations in your repository. This should resolve the exit code 128 error.
 
-Workflows have read and write permissions in the repository for all scopes.
-
-Workflows have read permissions in the repository for the contents and packages scopes only.
+Feel free to adjust the settings based on your specific needs and security considerations. 

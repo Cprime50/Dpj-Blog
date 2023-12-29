@@ -43,7 +43,7 @@ sudo apt update
 {{< /highlight >}}
 
 This also works for getting packages from their original repositorys.
-For example, you want to install MongoDB from it's official repository.
+For example, lets try to install MongoDB from it's official repository.
 
 You can import it directly by:
 {{< highlight bash >}}
@@ -68,9 +68,9 @@ This removes it from the source.list
 #### Second procedure (manually adding repository into sources.list)
 You can also maually edit the `/etc/apt/sources.list` file and add the apt repository line to the file.
 
-You may need root access to edit this file so login as root user
+You will need root access to edit this file so login as root user
 {{< highlight bash >}}
-sudo sudo
+sudo su
 {{< /highlight >}}
 
 Using nano or vim or any text editor of your choice, open the `/etc/apt/sources.list` file
