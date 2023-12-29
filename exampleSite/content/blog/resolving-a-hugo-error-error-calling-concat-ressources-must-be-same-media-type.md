@@ -12,14 +12,14 @@ sitemapExclude: false
 
 
 
-#### Resolving a Hugo Error
+#### Overcoming Hugo Errors: A Step-by-Step Guide
 
-If you're using Hugo to build your websites, you may have encountered errors during the build process. These errors can sometimes be cryptic, leaving you in a state of fustration, wondering how to fix them. In this blog post, we'll explore a common Hugo error related to Bootstrap SCSS module and share how we successfully resolved it.
+Building websites with Hugo can sometimes present unexpected challenges, particularly when encountering errors during the build process. These errors can often feel cryptic and frustrating, leaving you unsure of how to proceed. In this article, we delve into a common Hugo error related to the Bootstrap SCSS module and provide a detailed walkthrough of how we successfully resolved it.
 
 
 ## The Error Message
 
-The error message we encountered looked like this:
+The error message we encountered  was as follows:
 
 {{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=22" >}}
 Error: Error building site: TOCSS: failed to transform "main_parsed.scss" (text/x-scss): resource "scss/scss/main.scss_6c95cc1249b26b124274204dbf970c34" not found in file cache
@@ -27,29 +27,28 @@ Error: Error building site: TOCSS: failed to transform "main_parsed.scss" (text/
 "/modules/filecache/modules/pkg/mod/github.com/twbs/bootstrap@v5.3.0+incompatible/scss/_maps.scss:55:16
 {{< /highlight >}}
 
-At first glance, it might seem like a daunting issue to tackle, especially if you're not well-versed in Hugo's inner workings or SCSS. However, with some troubleshooting and a bit of patience, we were able to identify and fix the problem.
 
 ## Understanding the Error
 
-The error message essentially tells us that there is an issue with our boostrap version compatability.
+The error message essentially indicates a compatibility issue between our current Bootstrap version and the Hugo version we're using.
 
 ## Troubleshooting Steps
 
 To resolve this error, we took the following steps:
 
-### 1. Checking Bootstrap Version
+### 1. Verifying the Bootstrap Version
 
-We realized that the error occurred after a recent Hugo update. This led us to suspect that the Bootstrap module we were using might not be compatible with the latest Hugo version. To confirm this, we checked the Bootstrap module's version.
+We noticed that the error surfaced after a recent Hugo update. This led us to suspect that the Bootstrap module we were using might not be compatible with the latest Hugo version. To confirm this suspicion, we checked the version of the Bootstrap module.
 
 ### 2. Downgrading the Bootstrap Module
 
-To fix the error, we decided to downgrade the Bootstrap module to a version that we knew was compatible with our Hugo setup. We used the following command to downgrade the module:
+To rectify the error, we decided to downgrade the Bootstrap module to a version that we knew was compatible with our Hugo setup. We executed the following command to downgrade the module:
 
-{{< highlight bash "linenos=table,hl_lines=8 15-17,linenostart=22" >}}
+{{< highlight bash >}}
 go get github.com/gohugoio/hugo-mod-bootstrap-scss/v5@v5.20200.20101
 {{< /highlight >}}
 
-This command fetches the specific version of the Bootstrap module that we wanted.
+This command fetches the specific version of the Bootstrap module that we needed.
 
 ### 4. Clearing Hugo's Cache
 

@@ -1,5 +1,5 @@
 ---
-title: "Github actions: Action failed with "The process '/usr/bin/git' failed with exit code 128"
+title: "Github actions: Action failed with The process '/usr/bin/git' failed with exit code 128"
 description: "The error message The process '/usr/bin/git' failed with exit code 128 typically indicates that GitHub Actions does not have the required permissions to execute certain tasks in your repository. This could be due to restrictions on the actions that can be run, or limitations on the scope of the workflows."
 image: "images/post/post-4.png"
 date: 2023-11-26 T18:19:25+06:00
