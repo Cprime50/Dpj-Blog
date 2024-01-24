@@ -13,6 +13,7 @@ AUTHOR WEBSITE: https://gethugothemes.com
 <head>
 	{{ partial "head.html" . }}
 
+
 	<!-- cache partial only in production -->
 	{{ if hugo.IsProduction }}
 	{{ partialCached "style.html" . }}
@@ -22,7 +23,7 @@ AUTHOR WEBSITE: https://gethugothemes.com
 </head>
 
 <body>
-	<!-- cache partial only in production -->
+	<!-- t addcache partial only in production -->
 	{{ if hugo.IsProduction }}
 	{{ partialCached "preloader.html" . }}
 	{{ partial "header.html" . }}

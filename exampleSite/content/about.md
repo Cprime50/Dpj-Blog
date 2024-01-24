@@ -22,11 +22,13 @@ draft: false
 #     content: "Software Engineer"
 #     content: "I worked with the webdev team to build an intuitive and interactive landing page, a blogging and news system with a cms, contributed to hadling deployments to the cloud and contributed to alot of Data Analysis project."
 ---
-### How I started
-I'm Charles, been prgramming for about 3 years now, it all started with a love for games as it would be for a lot of other devs, started out doing some gamedev stuff which I was really passionate about. I got into web dev a while after, learing python and flask, then I found Go and its been my favorite choice ever since, anyways these langauges are just tools meant to solve a problem so I'm not just hung up to Go, I also write typescript with nestjs for infastructures and Vuejs for Front end stuff I have to do.
 
-### University
-In university, I pursued computer science because I wanted to learn more about programming, and so far it's been an amazing experience, I can say that I have learnt so much. I also met some really talented peers, who helped improve my skills and knowledge by alot.
+Welcome to charlesdpjs blog, a specialized platform crafted for bloging about my experience in projects I work on with  Go, .NET, C#, linux, hugo game developement technologies.
 
-### My Hobbys
-Although I spend most of my time doing Web dev stuff, I like to explore other parts of programming, like low-level messing around with C, and game dev. I also find it interesting reading up articles online which is why I started this blog. 
+
+### My Distinct Focus
+
+My passion for in-depth exploration of technologies. I hope to share detailed tutorials, articles, and resources focused on these technologies.
+
+
+Thank you for reading.
