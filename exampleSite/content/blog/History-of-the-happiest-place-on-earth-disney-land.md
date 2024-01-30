@@ -6,7 +6,7 @@ date: 2022-07-24T18:19:25+06:00
 categories: ["Disney"]
 tags: ["fun", "entertainment"]
 type: "regular" # available types: [featured/regular]
-draft: false
+draft: true
 ---
 
 It's undeniable that Disneyland, often referred to as the "Happiest Place on Earth," has long been a destination on many people's bucket lists. Whether you've visited yet or not, there's no denying the allure of this magical land, it isn't termed the "Happiest Place on Earth" for no reason. Known for it's iconic rides, Disneyland's journey began over six decades ago with the vision of Walt Disney. Have you ever thought about how these rides came along, from the thrilling Space Mountain to the whimsical Incredicoaster, Star Tours, and the Dumbo the Flying Elephant, these rides have shaped our memories and continue to delight visitors today. While the idea of these rides might seem like a dream come true, their creation was far from a smooth journey. There were trials and tribulations along the way. In this article We'll explore the creation of these iconic rides, the challenges they faced, and celebrate Disneyland's triumphant rise to become the world's most cherished theme park. 

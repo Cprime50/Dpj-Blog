@@ -6,7 +6,7 @@ date: 2023-06-29T18:19:25+06:00
 categories: ["programming"]
 tags: ["bufio", "coding", "golang"]
 type: "reguler" # available types: [featured/regular]
-draft: false
+draft: true
 sitemapExclude: false
 ---
 
