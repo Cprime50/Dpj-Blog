@@ -1,5 +1,5 @@
 ---
-title: "Fixing "Unable to locate package" Error in Linux: Alternative Solutions for apt-get install"
+title: "An alternative to installing linux packages without Apt"
 description: "The issue is quite straight Forward but can occur for variety of reasons, but generally it just means the package you are trying to install is not found in any of the repositorys"
 image: "images/post/linux.jpeg"
 date: 2023-11-02T18:19:25+06:00
@@ -10,9 +10,16 @@ draft: false
 ---
 
 
-I experienced a highly stressful night due to mistakenly deleting the fuse3 package from my Ubuntu system, causing it to crash. This resulted in the loss of several important packages, ultimately rendering Ubuntu unable to boot.  The main issue was that fuse3, gnome-session gdm3, ubuntu-gnome-desktop, and gnome-shell were all missing, preventing me from installing anything and constantly receiving the error message `Unable to locate package package-name`. This was a nightmare , as I feared losing all of my files. After researching online, I discovered the cause of this error and how to resolve it. 
+I unknowingly deleted the fuse3 package from my Ubuntu Desktop leading to massive damage to my desktop. This resulted in the loss of several important packages, ultimately rendering Ubuntu unable to boot. The primary problem was that fuse3, gnome-session gdm3, ubuntu-gnome-desktop, and gnome-shell - all essential packages for the GNOME interface - were entirely erased from my system. Consequently, without GNOME installed, there was no graphical user interface available. I was left with only the terminal to use my computer.
 
-{{< image src="https://preview.redd.it/uzx3z0pzdvb61.jpg?auto=webp&s=a6ae080930a19ba1f88fec9370c148ea349253c0" caption="linux cat" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="linux cat" webp="false" >}}
+> Side Note unless you know what you're doing, do not attempt to remove the fuse3 package. In my situation, I had to downgrade to the fuse2 package to install a particular app image that wouldn't work with my current version.
+
+Now I was faced with another issue, I couldnt reinstall my lost packages. Attempting to install anything resulted in an `Unable to locate package` error. This was a nightmare , I was very stuck at this point. I needed to install those packages I lost or I would't be able to get GNOME back.
+
+Fortunately, I managed to discover a solution, albeit not a widely known one, but it effectively resolved the issue. Your experience as to why you're facing this error may definitely differ from mine, so Ill try to provide a comprehensive overview of potential solutions to this problem. Some methods that didn't work for me might still prove beneficial for you.
+
+
+{{< image src="https://preview.redd.it/uzx3z0pzdvb61.jpg?auto=webp&s=a6ae080930a19ba1f88fec9370c148ea349253c0" caption="welcome to the linux cult" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="linux" webp="false" >}}
 
 
 #### Reason

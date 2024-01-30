@@ -11,11 +11,11 @@ logo_text = "Charles Dpj"
 # navbar fixed to top
 navbar_fixed = false
 # OpenGraph / Twitter Card metadata
-description = "I make awesome programming, tech and non-tech related contents, come check it out, I know you'll find it interseting"
+description = "Welcome to my blog, I started this platform to document my journey into software development, the cloud and linux. "
 # author = "Charles Dpj"
-image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+image = "images/about2.png" # this image will be used as fallback if a page has no image of its own
 # contact info
-address = "Nigeria"
+address = ""
 mobile = ""
 email = "Charlesdpj78@gmail.com"
 # contact form action
@@ -40,15 +40,15 @@ no_tags_found = "No Tags Found"
 
 mainSections = ["blog"]
 # about widget content
-about_widget_content = "I thought the potato picture looked funny. Anyways I'm Charles, I'm a software developer, I work primarily on the backend building infastructures with Go. I'm currently working on something fun right now. I made this blog to share articles, thoughts and for documentating programming related stuff. If you're interested in what I do feel free to connect with me"
+about_widget_content = "Welcome to my blog, I started this platform to document my journey into software development, the cloud, open source and linux. You will find me mostly talking about Go, C# & .NET, Typescript & React, AWS & GCP, gRPC & REST, linux, Ebiten & Monogames, Hugo."
  
 # footer content
-footer_content = "Hi, hope you're having a lovely day!"
+footer_content = ""
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
 custom_script= ""
 # copyright
 theme_copyright = false
-copyright = "Copyright © 2023 Charles Dpj"
+copyright = "Copyright © 2024 Charles Dpj"
 
 # 404
 error_404_text = "404 Page Not Found!"
@@ -61,12 +61,12 @@ preloader = "images/gopher.gif" # use jpg, png, svg or gif format.
 
 # Banner
 [banner]
-enable = true
+enable = false
 title_large = "Welcome **!**"
 title_small = "to Charles Dpj's Blog"
 image = "images/gopher.png"
 background_image = "/images/banner-bg-shape.svg"
-content = "Welcome to my blog, I'm Charles a Backend Developer, I'm currently working on software infastructures with Go"
+content = "Charles is a C# and Go developer who enjoys blogging about his experience, he is also a big beliver in open-source and Linux."
 button_label = "Know More"
 button_link = "about/"
 
@@ -103,20 +103,20 @@ mailchimp_form_name = "b_b46e79e5f55a39bd35a58dbd8_3282287065" # replace this co
 
 
 ############################# social site ########################
-[[social]]
-title = "facebook"
-icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://www.facebook.com/profile.php?id=100076517981765"
+#[[social]]
+#title = "facebook"
+#icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
+#link = "https://www.facebook.com/profile.php?id=100076517981765"
 
 [[social]]
 title = "twitter"
 icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
 link = "https://twitter.com/BunngeeeGum"
 
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://www.instagram.com/oluwaseundpj/?next=%2Funidosenoracionorg%2F"
+#[[social]]
+#title = "instagram"
+#icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+#link = "https://www.instagram.com/oluwaseundpj/?next=%2Funidosenoracionorg%2F"
 
 [[social]]
 title = "github"

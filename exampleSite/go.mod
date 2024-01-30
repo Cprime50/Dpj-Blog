@@ -3,7 +3,7 @@ module gethugothemes.com
 go 1.18
 
 require (
-	github.com/gethugothemes/hugo-modules/adsense v0.0.0-20230731033118-be0c1c964f76 // indirect
+
 	github.com/gethugothemes/hugo-modules/components/cookie-consent v0.0.0-20230731033118-be0c1c964f76 // indirect
 	github.com/gethugothemes/hugo-modules/components/crisp-chat v0.0.0-20230731033118-be0c1c964f76 // indirect
 	github.com/gethugothemes/hugo-modules/components/preloader v0.0.0-20230731033118-be0c1c964f76 // indirect

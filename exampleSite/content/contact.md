@@ -1,5 +1,5 @@
 ---
-title: "Let's, Talk About You"
+title: "Connect with me"
 description: "Got anything to say to me? I'm very willing to hear you out"
 layout: "contact"
 draft: false
