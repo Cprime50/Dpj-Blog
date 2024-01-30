@@ -4,11 +4,11 @@ description: "Got anything to say to me? I'm very willing to hear you out"
 layout: "contact"
 draft: false
 
-message: "Let's, Talk About You"
-button_text: "Send Now"
+message: "Connect with me"
+button_text: "Send"
 
-instruction_a: "Send Us A"
-instruction_b: " message"
+instruction_a: "Send an"
+instruction_b: "email"
 
 full_name_title: "Full name"
 full_name_placeholder: "Thomas Milano"
